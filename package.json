@@ -1,0 +1,30 @@
+{
+  "name": "insomnia-plugin-custom-generated-value",
+  "version": "1.0.0",
+  "private": false,
+  "insomnia": {
+    "name": "custom-generated-value",
+    "displayName": "Custom Generated Value",
+    "description": "Add support for generated values via a TemplateTag in Insomnia by the execution of Javascript code stored in an environment variable or a .js file having its path in the environment variable",
+    "images": {
+      "icon": "assets/icon.svg"
+    },
+    "publisher": {
+      "name": "Iulian Radu",
+      "icon": "https://avatars.githubusercontent.com/u/26931655"
+    },
+    "unlisted": false
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=main.js --format=cjs --platform=node",
+    "copy-plugin": "copy main.js %APPDATA%\\Insomnia\\plugins\\insomnia-plugin-custom-generated-value",
+    "update-plugin": "yarn build && yarn copy-plugin",
+    "deploy": "yarn build && yarn publish --non-interactive"
+  },
+  "devDependencies": {
+    "@types/node-notifier": "^8.0.2",
+    "esbuild": "^0.17.10",
+    "typescript": "^4.9.5"
+  }
+}

@@ -1,0 +1,5 @@
+<svg height="400" width="450">
+	<path id="lineAB" d="M 100 350 l 150 -300" stroke="red" stroke-width="5" fill="none" />
+	<path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="5" fill="none" />
+	<path d="M 100 350 q 150 -300 300 0" stroke="red" stroke-width="5" fill="none" />
+</svg>
