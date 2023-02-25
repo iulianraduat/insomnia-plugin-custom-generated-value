@@ -22,6 +22,7 @@
     "update-plugin": "yarn build && yarn copy-plugin",
     "deploy": "yarn build && yarn publish --non-interactive"
   },
+  "license": "GPL-3.0",
   "devDependencies": {
     "@types/node-notifier": "^8.0.2",
     "esbuild": "^0.17.10",
