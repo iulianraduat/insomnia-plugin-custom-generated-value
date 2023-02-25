@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-custom-generated-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "insomnia": {
     "name": "custom-generated-value",
@@ -22,7 +22,20 @@
     "update-plugin": "yarn build && yarn copy-plugin",
     "deploy": "yarn build && yarn publish --non-interactive"
   },
+  "icon": "images/logo.png",
   "license": "GPL-3.0",
+  "publisher": "iulian-radu-at",
+  "homepage": "https://www.npmjs.com/package/insomnia-plugin-custom-generated-value",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iulian-radu-at/insomnia-plugin-custom-generated-value"
+  },
+  "bugs": {
+    "url": "https://github.com/iulian-radu-at/insomnia-plugin-custom-generated-value/issues"
+  },
+  "sponsor": {
+    "url": "https://www.patreon.com/iulian_radu_at"
+  },
   "devDependencies": {
     "@types/node-notifier": "^8.0.2",
     "esbuild": "^0.17.10",

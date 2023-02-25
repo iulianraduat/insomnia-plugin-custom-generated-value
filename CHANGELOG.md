@@ -15,3 +15,17 @@ All notable changes to the "Custom Generated Value" Insomnia extension will be d
 ### Removed
 
 - Nothing
+
+## 1.0.1 (2023-02-25)
+
+### Added
+
+- Added missing fields in package.json
+
+### Changed
+
+- Nothing
+
+### Removed
+
+- Nothing
